@@ -64,8 +64,7 @@ Last Updated on
 \titlespacing{\section}{0pt}{0pt}{0pt}
 
 % Headings command
-\titleformat{\section}{\color{headings}
-\scshape\fontspec{Helvetica Light}\fontsize{14pt}{22pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\titleformat{\section}{\color{headings}\scshape\fontspec{Helvetica Light}\fontsize{14pt}{22pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{\color{subheadings}
@@ -80,6 +79,9 @@ Last Updated on
 
 % Location command
 \newcommand{\location}[1]{\color{headings}\raggedright\scshape\fontspec{Heiti TC Medium}\fontsize{8pt}{10pt}\selectfont {#1\\} \normalfont}
+
+% Parabody command
+\newcommand{\parabody}{\color{headings}\raggedright\scshape\fontspec{Heiti TC Medium}\fontsize{8pt}{10pt} \normalfont}
 
 % Section seperators command
 \newcommand{\sectionsep}[0]{\vspace{8pt}}
