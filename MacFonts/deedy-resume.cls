@@ -83,6 +83,18 @@ Last Updated on
 % Parabody command
 \newcommand{\parabody}{\color{headings}\raggedright\scshape\fontspec{Heiti TC Medium}\fontsize{8pt}{10pt} \normalfont}
 
+% Referee command
+\newcommand{\referee}[7]{
+  \begin{minipage}[t]{2.5in}
+    \descript{{#1}}
+    \location{{#2}}
+    {#3}\\
+    {#4}\\
+    \Telefon\ {#5}\\
+    \Letter\ \href{mailto:{#6}@{#7}}{{#6}\textrm{@}{#7}}
+  \end{minipage}
+}
+
 % Section seperators command
 \newcommand{\sectionsep}[0]{\vspace{8pt}}
 
