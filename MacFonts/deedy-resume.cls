@@ -53,7 +53,7 @@ Last Updated on
 \newcommand{\namesection}[3]{
 	\centering{
 		\sffamily
-		\fontspec{Helvetica Neue UltraLight}\fontsize{34pt}{8cm}\selectfont #1
+		\fontspec{Helvetica Neue UltraLight}\fontsize{28pt}{8cm}\selectfont #1
 		\fontspec{Helvetica Neue Light}\selectfont #2
 	} \\
 	\vspace{5pt}
